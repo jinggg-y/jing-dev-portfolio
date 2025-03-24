@@ -59,9 +59,9 @@ export default function Home() {
             </h2>
             <h3 className="text-2xl text-neutral-700 leading-7.5 font-semibold md:text-3xl dark:text-red-200">ICT Business Analysis.</h3>
 
-            <p className="text-md pt-10 leading-7 md:text-lg max-w-2xl mx-auto"data-aos="flip-down" data-aos-offset="0">Passionate about technology transformation and digital solutions, I am bringing over 2 years of experience in business analysis and consulting.
+            <p className="text-md pt-10 leading-7 md:text-lg max-w-2xl mx-auto">Passionate about technology transformation and digital solutions, I am bringing over 2 years of experience in business analysis and consulting. <span className="hidden sm:inline">With hands-on experience in Agile and Waterfall methodologies, cloud adoption, data migration, and process optimisation, I excel in delivering high-quality, outcome-orientated solutions that drive efficiency, innovation, and business success.</span>
             </p>
-            <p className="text-md pt-4 leading-7 md:text-lg max-w-2xl mx-auto" data-aos="flip-down">Let's connect and make an impact!</p>
+            <p className="text-md pt-4 leading-7 md:text-lg max-w-2xl mx-auto">Let's connect and make an impact!</p>
           </div>
         </div>
         <div className="carousel-container overflow-hidden py-5 w-full h-full mt-auto"> <AutoplayCarousel /> </div>

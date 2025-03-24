@@ -21,7 +21,7 @@ export default function Home() {
 
   useEffect(() => {
     AOS.init({
-      duration: 1200, // Animation duration in milliseconds
+      duration: 1500, // Animation duration in milliseconds
       once: true, // Whether animation should happen only once
       disable: function() {
         return window.innerWidth < 768; // Disable AOS on screens smaller than 768px (mobile)
@@ -44,24 +44,24 @@ export default function Home() {
           </ul>
         </nav>
 
-        <div className="px-5 md:px-30 lg:px-80 flex flex-col flex-grow">
+        <div className="px-5 md:px-30 flex flex-col flex-grow">
           {/* hero */}
           <div className="text-center p-7">
             <div className="relative pt-5 mx-auto w-80 h-80 mb-3 bg-gradient-to-tr from-orange-200 rounded-t-full">
               <Image className="pt-4" src={profile} />
             </div>
 
-            <h2 className="text-4xl py-5 mt-10 text-rose-900 font-bold md:text-5xl dark:text-white">
+            <h2 className="text-4xl py-5 mt-10 text-rose-900 font-bold lg:text-5xl dark:text-white">
               I'm Jing Yang
-              <a className="text-blue-900 text-3xl inline-block align-middle pl-2 md:text-4xl dark:text-blue-400" href="https://www.linkedin.com/in/jinggg">
+              <a className="text-blue-900 text-3xl inline-block align-middle pl-2 lg:text-4xl dark:text-blue-400" href="https://www.linkedin.com/in/jinggg">
                 <AiFillLinkedin />
               </a>
             </h2>
-            <h3 className="text-2xl text-neutral-700 leading-7.5 font-semibold md:text-3xl dark:text-red-200">ICT Business Analysis.</h3>
+            <h3 className="text-2xl text-neutral-700 leading-7.5 font-semibold lg:text-3xl dark:text-red-200">ICT Business Analysis.</h3>
 
-            <p className="text-md pt-10 leading-7 md:text-lg max-w-2xl mx-auto">Passionate about technology transformation and digital solutions, I am bringing over 2 years of experience in business analysis and consulting. <span className="hidden sm:inline">With hands-on experience in Agile and Waterfall methodologies, cloud adoption, data migration, and process optimisation, I excel in delivering high-quality, outcome-orientated solutions that drive efficiency, innovation, and business success.</span>
+            <p className="text-md pt-10 leading-7 lg:text-lg max-w-2xl mx-auto" data-aos="flip-up" data-aos-duration="1000">Passionate about technology transformation and digital solutions, I am bringing over 2 years of experience in business analysis and consulting. <span className="hidden sm:inline">With hands-on experience in Agile and Waterfall methodologies, cloud adoption, data migration, and process optimisation, I excel in delivering high-quality, outcome-orientated solutions that drive efficiency, innovation, and business success.</span>
             </p>
-            <p className="text-md pt-4 leading-7 md:text-lg max-w-2xl mx-auto">Let's connect and make an impact!</p>
+            <p className="text-md pt-4 leading-7 lg:text-lg max-w-2xl mx-auto" data-aos="flip-up" data-aos-duration="1000">Let's connect and make an impact!</p>
           </div>
         </div>
         <div className="carousel-container overflow-hidden py-5 w-full h-full mt-auto"> <AutoplayCarousel /> </div>
@@ -69,27 +69,27 @@ export default function Home() {
 
       {/* Expertise */}
       <section className="px-8 py-16 bg-rose-gray md:px-30 lg:px-80 dark:bg-neutral-900">
-          <h2 className="text-center text-4xl leading-12 text-rose-950 font-semibold py-6 dark:text-white" data-aos="zoom-in">Deliver impactful solutions.</h2>
-          <p className="text-center leading-7 mb-8 max-w-4xl mx-auto md:text-lg" data-aos="zoom-in">By aligning technology with business objectives, I drive digital transformation, optimise processes, and enable organisations to achieve sustainable growth while maintaining compliance and security in an evolving IT landscape. Focusing on:</p>
+          <h2 className="text-center text-4xl leading-12 text-rose-950 font-semibold py-6 dark:text-white" data-aos="fade-up">Deliver impactful solutions.</h2>
+          <p className="text-center leading-7 mb-8 max-w-4xl mx-auto md:text-lg" data-aos="fade-up">By aligning technology with business objectives, I drive digital transformation, optimise processes, and enable organisations to achieve sustainable growth while maintaining compliance and security in an evolving IT landscape. Focusing on:</p>
           <div className="lg:grid lg:grid-cols-2">
           <div className="p-8">
-            <h3 className="text-2xl py-2 text-rose-950 dark:text-white">Technology</h3>
-            <p className="leading-7 md:text-lg">I have expertise in <span className="font-bold">AWS, Azure, and application delivery</span>, ensuring scalable and secure solutions. My technical skills in <span className="font-bold">web development, databases, Python, and Java</span> enable me to understand the tech stack and requirements, facilitating effective solution design. With my robust foundation in technology, I bridge the gap between businesses and technology, delivering optimised, efficient, and impactful solutions tailored to business needs.</p>
+            <h3 className="text-2xl py-2 text-rose-950 dark:text-white" data-aos="fade-up">Technology</h3>
+            <p className="leading-7 md:text-lg" data-aos="fade-up">I have expertise in <span className="font-bold">AWS, Azure, and application delivery</span>, ensuring scalable and secure solutions. My technical skills in <span className="font-bold">web development, databases, Python, and Java</span> enable me to understand the tech stack and requirements, facilitating effective solution design. With my robust foundation in technology, I bridge the gap between businesses and technology, delivering optimised, efficient, and impactful solutions tailored to business needs.</p>
           </div>
 
           <div className="p-8">
-            <h3 className="text-2xl text-rose-950 dark:text-white py-2">Consulting</h3>
-            <p className="leading-7 md:text-lg">In IT consulting, I <span className="font-bold">analyse business challenges, assess technology landscapes, and provide strategic recommendations</span> for optimised solutions. I excel in <span className="font-bold">structural problem-solving </span> and <span className="font-bold"> systematic analysis</span> to drive meaningful change. My expertise includes cloud adoption, application delivery, IT service management, and data migration, ensuring seamless implementation and value realisation.</p>
+            <h3 className="text-2xl text-rose-950 dark:text-white py-2" data-aos="fade-up">Consulting</h3>
+            <p className="leading-7 md:text-lg" data-aos="fade-up">In IT consulting, I <span className="font-bold">analyse business challenges, assess technology landscapes, and provide strategic recommendations</span> for optimised solutions. I excel in <span className="font-bold">structural problem-solving </span> and <span className="font-bold"> systematic analysis</span> to drive meaningful change. My expertise includes cloud adoption, application delivery, IT service management, and data migration, ensuring seamless implementation and value realisation.</p>
           </div>
 
           <div className="p-8">
-            <h3 className="text-2xl text-rose-950 dark:text-white py-2">Stakeholder Engagement</h3>
-            <p className="leading-7 md:text-lg">I collaborate with global and local clients across diverse industries to deliver value-driven solutions. By actively engaging with stakeholders, I ensure alignment between business needs and technology strategies, fostering<span className="font-bold"> seamless communication</span> and  <span className="font-bold">informed decision-making.</span> My approach emphasises <span className="font-bold">quality, collaboration, and user-centric outcomes,</span> ensuring that solutions meet both business objectives and end-user expectations while driving efficiency and innovation.</p>
+            <h3 className="text-2xl text-rose-950 dark:text-white py-2" data-aos="fade-up">Stakeholder Engagement</h3>
+            <p className="leading-7 md:text-lg" data-aos="fade-up">I collaborate with global and local clients across diverse industries to deliver value-driven solutions. By actively engaging with stakeholders, I ensure alignment between business needs and technology strategies, fostering<span className="font-bold"> seamless communication</span> and  <span className="font-bold">informed decision-making.</span> My approach emphasises <span className="font-bold">quality, collaboration, and user-centric outcomes,</span> ensuring that solutions meet both business objectives and end-user expectations while driving efficiency and innovation.</p>
           </div>
 
           <div className="p-8">
-            <h3 className="text-2xl text-rose-950 dark:text-white py-2">Project Management</h3>
-            <p className="leading-7 md:text-lg">With a strong foundation in <span className="font-bold"> Agile, Scrum, and Waterfall</span> methodologies, I have  engaged as PMO in multiple deliveries with cross-functional teams for global clients. I ensure timely and efficient execution while <span className="font-bold">maintaining stringent governance</span> and <span className="font-bold">security protocols</span>. My experience includes producing detailed reports, managing Jira tickets, and facilitating key stakeholder engagements to ensure alignment between business objectives and technology solutions.</p>
+            <h3 className="text-2xl text-rose-950 dark:text-white py-2" data-aos="fade-up">Project Management</h3>
+            <p className="leading-7 md:text-lg" data-aos="fade-up">With a strong foundation in <span className="font-bold"> Agile, Scrum, and Waterfall</span> methodologies, I have  engaged as PMO in multiple deliveries with cross-functional teams for global clients. I ensure timely and efficient execution while <span className="font-bold">maintaining stringent governance</span> and <span className="font-bold">security protocols</span>. My experience includes producing detailed reports, managing Jira tickets, and facilitating key stakeholder engagements to ensure alignment between business objectives and technology solutions.</p>
           </div>
         </div>
 

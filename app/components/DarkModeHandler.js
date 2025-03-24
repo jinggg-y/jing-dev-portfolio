@@ -16,9 +16,9 @@ export default function DarkModeHandler() {
       }, [dark]);
     
     return (
-        <button onClick={() => setDark(!dark)}  className="text-xl">
+        <div onClick={() => setDark(!dark)}  className="text-xl cursor-pointer">
             {dark ? <BsSun className="text-white" /> : <BsMoonStarsFill />}
-        </button>
+        </div>
     );
     
 }

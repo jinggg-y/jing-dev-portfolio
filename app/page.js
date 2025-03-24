@@ -39,7 +39,7 @@ export default function Home() {
               <DarkModeHandler />
             </li>
             <li>
-              <a className="bg-red-500 px-4 py-2 rounded-md ml-6 text-white" href="#">Resume</a>
+              <a className="bg-red-500 hover:bg-red-600 px-4 py-2 rounded-md ml-6 text-white" href="jingyang-cv.pdf" download>Resume</a>
             </li>
           </ul>
         </nav>
@@ -53,7 +53,7 @@ export default function Home() {
 
             <h2 className="text-4xl py-5 mt-10 text-rose-900 font-bold lg:text-5xl dark:text-white">
               I'm Jing Yang
-              <a className="text-blue-900 text-3xl inline-block align-middle pl-2 lg:text-4xl dark:text-blue-400" href="https://www.linkedin.com/in/jinggg">
+              <a className="text-blue-900 hover:text-blue-700 text-3xl inline-block align-middle pl-2 lg:text-4xl dark:text-blue-400" href="https://www.linkedin.com/in/jinggg">
                 <AiFillLinkedin />
               </a>
             </h2>

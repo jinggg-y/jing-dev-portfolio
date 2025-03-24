@@ -1,4 +1,5 @@
 import aws from "../../public/aws.svg"
+import awsDark from "../../public/aws-dark.png"
 import azure from "../../public/microsoft-azure.svg"
 import git from "../../public/git.png"
 import react from "../../public/react.png"
@@ -7,6 +8,16 @@ import java from "../../public/java.svg"
 import figma from "../../public/figma.png"
 import confluence from "../../public/confluence.svg"
 import jira from "../../public/jira.svg"
+
+// import { useEffect } from "react"
+
+// useEffect(() => {
+//     if(document.documentElement.classList.contains("dark")) {
+//         aws=awsDark;
+//     } else {
+//         aws = awsLight;
+//     }
+// });
 
 export const cardDetails = {
     0: {

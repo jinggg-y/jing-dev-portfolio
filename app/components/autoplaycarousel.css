@@ -1,6 +1,6 @@
 .carousel-track {
     position: relative;
-    animation: slide 50s linear infinite;
+    animation: slide 25s linear infinite;
 }
 
 .carousel-track:hover {
@@ -9,10 +9,10 @@
 
 @keyframes slide {
     0% {
-        left: 0;
+        transform: translateX(0);
     }
 
     100% {
-        left: -250%;
+        transform: translateX(-50%);
     }
 }

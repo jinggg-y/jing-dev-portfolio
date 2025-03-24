@@ -14,11 +14,6 @@ export default function DarkModeToggle() {
           document.documentElement.classList.remove("dark");
         }
       }, [dark]);
-
-    // const darkModeHandler = () => {
-    //     setDark(!dark);
-    //     document.documentElement.classList.toggle("dark");
-    // }
     
     return (
         <button onClick={() => setDark(!dark)}  className="text-xl">

@@ -5,7 +5,7 @@ import CarouselItem from "./CarouselItem";
 
 export default function AutoplayCarousel() {
   return (
-    <div className="carousel-track flex justify-center items-center gap-8 w-[250%] h-full left-0">
+        <div className="carousel-track flex justify-center items-center gap-8 w-[200%] h-full">
         {Object.keys(cardDetails).map((detailKey) => {
         return (
             <CarouselItem

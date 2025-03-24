@@ -47,19 +47,19 @@ export default function Home() {
         <div className="px-5 md:px-30 flex flex-col flex-grow">
           {/* hero */}
           <div className="text-center p-7">
-            <div className="relative pt-5 mx-auto w-80 h-80 mb-3 bg-gradient-to-tr from-orange-200 rounded-t-full">
+            <div className="relative mx-auto w-60 h-60 mb-3 bg-gradient-to-tr from-orange-200 rounded-t-full md:w-80 md:h-80">
               <Image className="pt-4" src={profile} />
             </div>
 
-            <h2 className="text-4xl py-5 mt-10 text-rose-900 font-bold lg:text-5xl dark:text-white">
+            <h2 className="text-3xl py-5 mt-10 text-rose-900 font-bold md:text-4xl  lg:text-5xl dark:text-white">
               I'm Jing Yang
-              <a className="text-blue-900 hover:text-blue-700 text-3xl inline-block align-middle pl-2 lg:text-4xl dark:text-blue-400" href="https://www.linkedin.com/in/jinggg">
+              <a className="text-blue-900 hover:text-blue-700 text-2xl inline-block align-middle pl-2 lg:text-4xl dark:text-blue-400" href="https://www.linkedin.com/in/jinggg">
                 <AiFillLinkedin />
               </a>
             </h2>
             <h3 className="text-2xl text-neutral-700 leading-7.5 font-semibold lg:text-3xl dark:text-red-200">ICT Business Analysis.</h3>
 
-            <p className="text-md pt-10 leading-7 lg:text-lg max-w-2xl mx-auto" data-aos="flip-up" data-aos-duration="1000">Passionate about technology transformation and digital solutions, I am bringing over 2 years of experience in business analysis and consulting. <span className="hidden sm:inline">With hands-on experience in Agile and Waterfall methodologies, cloud adoption, data migration, and process optimisation, I excel in delivering high-quality, outcome-orientated solutions that drive efficiency, innovation, and business success.</span>
+            <p className="text-md pt-10 leading-7 max-w-2xl mx-auto lg:text-lg" data-aos="flip-up" data-aos-duration="1000">Passionate about technology transformation and digital solutions, I am bringing over 2 years of experience in business analysis and consulting. <span className="hidden sm:inline">With hands-on experience in Agile and Waterfall methodologies, cloud adoption, data migration, and process optimisation, I excel in delivering high-quality, outcome-orientated solutions that drive efficiency, innovation, and business success.</span>
             </p>
             <p className="text-md pt-4 leading-7 lg:text-lg max-w-2xl mx-auto" data-aos="flip-up" data-aos-duration="1000">Let's connect and make an impact!</p>
           </div>
@@ -69,7 +69,7 @@ export default function Home() {
 
       {/* Expertise */}
       <section className="px-8 py-16 bg-rose-gray md:px-30 lg:px-80 dark:bg-neutral-900">
-          <h2 className="text-center text-4xl leading-12 text-rose-950 font-semibold py-6 dark:text-white" data-aos="fade-up">Deliver impactful solutions.</h2>
+          <h2 className="text-center leading-12 text-rose-950 font-semibold py-6 dark:text-white" data-aos="fade-up">Deliver impactful solutions.</h2>
           <p className="text-center leading-7 mb-8 max-w-4xl mx-auto md:text-lg" data-aos="fade-up">By aligning technology with business objectives, I drive digital transformation, optimise processes, and enable organisations to achieve sustainable growth while maintaining compliance and security in an evolving IT landscape. Focusing on:</p>
           <div className="lg:grid lg:grid-cols-2">
           <div className="p-8">
@@ -92,17 +92,11 @@ export default function Home() {
             <p className="leading-7 md:text-lg" data-aos="fade-up">With a strong foundation in <span className="font-bold"> Agile, Scrum, and Waterfall</span> methodologies, I have  engaged as PMO in multiple deliveries with cross-functional teams for global clients. I ensure timely and efficient execution while <span className="font-bold">maintaining stringent governance</span> and <span className="font-bold">security protocols</span>. My experience includes producing detailed reports, managing Jira tickets, and facilitating key stakeholder engagements to ensure alignment between business objectives and technology solutions.</p>
           </div>
         </div>
-
-          {/* <h3 className="text-2xl py-2 text-neutral-700 hover:font-semibold dark:text-white">Technology.</h3>
-          <h3 className="text-2xl py-2 text-neutral-700 hover:font-semibold dark:text-white">Consulting.</h3>
-          <h3 className="text-2xl py-2 text-neutral-700 hover:font-semibold dark:text-white">Agile Delivery.</h3>
-          <h3 className="text-2xl py-2 text-neutral-700 hover:font-semibold dark:text-white">Project Management.</h3>
-          <h3 className="text-2xl py-2 text-neutral-700 hover:font-semibold dark:text-white mb-5">Stakeholder Engagement.</h3> */}
       </section>
 
       {/* Experience */}
       <section className="px-8 py-16 md:px-30 lg:px-80">
-        <h2 className="p-8 text-4xl leading-12 dark:text-stone-400">I've worked as a <span className="font-semibold text-rose-950 dark:text-white"> consultant</span> or a <span className="font-semibold text-rose-950 dark:text-white">business analyst</span> for:</h2>
+        <h2 className="p-8 leading-12 dark:text-stone-400">I've worked as a <span className="font-semibold text-rose-950 dark:text-white"> consultant</span> or a <span className="font-semibold text-rose-950 dark:text-white">business analyst</span> for:</h2>
 
         <div className="lg:flex">
           <div className="rounded-xl shadow-xl mx-8 mb-6 p-8 bg-white lg:w-150 dark:bg-stone-800 dark:border-1 dark:border-stone-700">
@@ -120,7 +114,7 @@ export default function Home() {
 
       {/* Industries */}
       <section className="px-8 py-16 bg-rose-gray md:px-30 lg:px-80 dark:bg-neutral-900">
-        <h2 className="p-8 text-4xl leading-12 dark:text-stone-400">I've been in <span className="font-semibold text-rose-950 dark:text-white"> various industries</span> and <span className="font-semibold text-rose-950 dark:text-white">domains</span>:</h2>
+        <h2 className="p-8 leading-12 dark:text-stone-400">I've been in <span className="font-semibold text-rose-950 dark:text-white"> various industries</span> and <span className="font-semibold text-rose-950 dark:text-white">domains</span>:</h2>
 
         <div className="lg:flex">
           <div className="rounded-xl shadow-xl mx-8 mb-6 p-8 bg-white lg:w-150 dark:bg-stone-800 dark:border-1 dark:border-stone-700">
@@ -139,7 +133,7 @@ export default function Home() {
       </section>
 
       <footer className="p-8 flex justify-end items-center bg-white dark:bg-black">
-        <p>Developed by Jing Yang</p>
+        <p>Designed and Developed by Jing Yang</p>
         <BiWinkSmile className="ml-2 text-xl"/>
       </footer>
     </main>

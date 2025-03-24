@@ -23,4 +23,8 @@ body {
   p {
     @apply  dark:text-stone-300; /* Light mode: gray-800, Dark mode: gray-300 */
   }
+
+  h2 {
+    @apply text-3xl lg:text-4xl;
+  }
 }

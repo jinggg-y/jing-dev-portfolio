@@ -15,7 +15,7 @@ import { BiWinkSmile } from "react-icons/bi";
 
 
 import AutoplayCarousel from "./components/AutoplayCarousel"
-import DarkModeToggle from "./components/DarkModeToggle"
+import DarkModeHandler from "./components/DarkModeHandler"
 
 export default function Home() {
 
@@ -36,7 +36,7 @@ export default function Home() {
           <h1 className="text-2xl font-[marcellus] text-rose-950 font-bold dark:text-rose-500">JY</h1>
           <ul className="flex items-center">
             <li>
-              <DarkModeToggle />
+              <DarkModeHandler />
             </li>
             <li>
               <a className="bg-red-500 px-4 py-2 rounded-md ml-6 text-white" href="#">Resume</a>

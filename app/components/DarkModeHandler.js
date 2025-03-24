@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { BsMoonStarsFill,BsSun } from "react-icons/bs";
 
 
-export default function DarkModeToggle() {
+export default function DarkModeHandler() {
     const [dark, setDark] = useState(false);
 
     useEffect(() => {

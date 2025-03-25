@@ -35,18 +35,6 @@ export default function Home() {
       <section className="min-h-screen flex flex-col bg-gradient-to-t from-red-200 to-amber-50 dark:from-stone-900 dark:to-stone-700">
         <Navbar />
 
-        {/* <nav className="p-5 flex justify-between md:px-9">
-          <h1 className="text-2xl font-[marcellus] text-rose-950 font-bold dark:text-rose-500">JY</h1>
-          <ul className="flex items-center">
-            <li>
-              <DarkModeHandler />
-            </li>
-            <li>
-              <a className="bg-red-500 hover:bg-red-600 px-4 py-2 rounded-md ml-6 text-white" href="jingyang-cv.pdf" download>Resume</a>
-            </li>
-          </ul>
-        </nav> */}
-
         <div className="px-5 md:px-30 flex flex-col flex-grow">
           {/* hero */}
           <div className="text-center p-7">

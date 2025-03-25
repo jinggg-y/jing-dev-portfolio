@@ -16,6 +16,7 @@ import { BiWinkSmile } from "react-icons/bi";
 
 import AutoplayCarousel from "./components/AutoplayCarousel"
 import DarkModeHandler from "./components/DarkModeHandler"
+import { Navbar } from "./components/Navbar";
 
 export default function Home() {
 
@@ -32,7 +33,9 @@ export default function Home() {
   return (
     <main className="dark:bg-neutral-900">
       <section className="min-h-screen flex flex-col bg-gradient-to-t from-red-200 to-amber-50 dark:from-stone-900 dark:to-stone-700">
-        <nav className="p-5 flex justify-between md:px-9">
+        <Navbar />
+
+        {/* <nav className="p-5 flex justify-between md:px-9">
           <h1 className="text-2xl font-[marcellus] text-rose-950 font-bold dark:text-rose-500">JY</h1>
           <ul className="flex items-center">
             <li>
@@ -42,7 +45,7 @@ export default function Home() {
               <a className="bg-red-500 hover:bg-red-600 px-4 py-2 rounded-md ml-6 text-white" href="jingyang-cv.pdf" download>Resume</a>
             </li>
           </ul>
-        </nav>
+        </nav> */}
 
         <div className="px-5 md:px-30 flex flex-col flex-grow">
           {/* hero */}

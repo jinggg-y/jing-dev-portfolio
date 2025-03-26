@@ -15,7 +15,7 @@ import { BiWinkSmile } from "react-icons/bi";
 
 
 import AutoplayCarousel from "./components/AutoplayCarousel"
-import DarkModeHandler from "./components/DarkModeHandler"
+import { Hero } from "./components/Hero";
 import { Navbar } from "./components/Navbar";
 
 export default function Home() {
@@ -35,26 +35,8 @@ export default function Home() {
       <section className="min-h-screen flex flex-col bg-gradient-to-t from-red-200 to-amber-50 dark:from-stone-900 dark:to-stone-700">
         <Navbar />
 
-        <div className="px-5 md:px-30 flex flex-col flex-grow">
-          {/* hero */}
-          <div className="text-center p-7">
-            <div className="relative mx-auto w-60 h-60 mb-3 bg-gradient-to-tr from-orange-200 rounded-t-full md:w-80 md:h-80">
-              <Image className="pt-4" src={profile} />
-            </div>
+        <Hero />
 
-            <h2 className="text-3xl py-5 mt-10 text-rose-900 font-bold md:text-4xl  lg:text-5xl dark:text-white">
-              I'm Jing Yang
-              <a className="text-blue-900 hover:text-blue-700 text-2xl inline-block align-middle pl-2 lg:text-4xl dark:text-blue-400" href="https://www.linkedin.com/in/jinggg">
-                <AiFillLinkedin />
-              </a>
-            </h2>
-            <h3 className="text-2xl text-neutral-700 leading-7.5 font-semibold lg:text-3xl dark:text-red-200">ICT Business Analysis.</h3>
-
-            <p className="text-md pt-10 leading-7 max-w-2xl mx-auto lg:text-lg" data-aos="flip-up" data-aos-duration="1000">Passionate about technology transformation and digital solutions, I am bringing over 2 years of experience in business analysis and consulting. <span className="hidden sm:inline">With hands-on experience in Agile and Waterfall methodologies, cloud adoption, data migration, and process optimisation, I excel in delivering high-quality, outcome-orientated solutions that drive efficiency, innovation, and business success.</span>
-            </p>
-            <p className="text-md pt-4 leading-7 lg:text-lg max-w-2xl mx-auto" data-aos="flip-up" data-aos-duration="1000">Let's connect and make an impact!</p>
-          </div>
-        </div>
         <div className="carousel-container overflow-hidden py-5 w-full h-full mt-auto"> <AutoplayCarousel /> </div>
       </section>
 

@@ -43,7 +43,7 @@ export default function Home() {
       {/* Expertise */}
       <section className="px-8 py-16 bg-rose-gray md:px-30 lg:px-80 dark:bg-neutral-900">
           <h2 className="text-center leading-12 text-rose-950 font-semibold py-6 dark:text-white" data-aos="fade-up">Deliver impactful solutions.</h2>
-          <p className="text-center leading-7 mb-8 max-w-4xl mx-auto md:text-lg" data-aos="fade-up">By aligning technology with business objectives, I drive digital transformation, optimise processes, and enable organisations to achieve sustainable growth while maintaining compliance and security in an evolving IT landscape. Focusing on:</p>
+          <p className="text-center leading-7 mb-8 max-w-4xl mx-auto md:text-lg" data-aos="fade-up">Adept at software development, optimising workflows, and collaborating with cross-functional teams to deliver solutions. By aligning technology with business objectives, I drive digital transformation while maintaining compliance and security in an evolving IT landscape. Focusing on:</p>
           <div className="lg:grid lg:grid-cols-2">
           <div className="p-8">
             <h3 className="text-2xl py-2 text-rose-950 dark:text-white" data-aos="fade-up">Technology</h3>
@@ -51,8 +51,8 @@ export default function Home() {
           </div>
 
           <div className="p-8">
-            <h3 className="text-2xl text-rose-950 dark:text-white py-2" data-aos="fade-up">Consulting</h3>
-            <p className="leading-7 md:text-lg" data-aos="fade-up">In IT consulting, I <span className="font-bold">analyse business challenges, assess technology landscapes, and provide strategic recommendations</span> for optimised solutions. I excel in <span className="font-bold">structural problem-solving </span> and <span className="font-bold"> systematic analysis</span> to drive meaningful change. My expertise includes cloud adoption, application delivery, IT service management, and data migration, ensuring seamless implementation and value realisation.</p>
+            <h3 className="text-2xl text-rose-950 dark:text-white py-2" data-aos="fade-up">Software Development</h3>
+            <p className="leading-7 md:text-lg" data-aos="fade-up">In software development, I design and build solutions that address complex business challenges through robust and scalable applications. I specialise in structured problem-solving and systematic analysis to deliver high-quality code. My expertise spans <span className="font-bold">full-stack development, user-centric design, and software delivery lifecycle management,</span> ensuring seamless deployment and measurable value creation.</p>
           </div>
 
           <div className="p-8">
@@ -69,17 +69,19 @@ export default function Home() {
 
       {/* Experience */}
       <section className="px-8 py-16 md:px-30 lg:px-80">
-        <h2 className="p-8 leading-12 dark:text-stone-400">I've worked as a <span className="font-semibold text-rose-950 dark:text-white"> consultant</span> or a <span className="font-semibold text-rose-950 dark:text-white">business analyst</span> for:</h2>
+        <h2 className="p-8 leading-12 dark:text-stone-400">I have <span className="font-semibold text-rose-950 dark:text-white"> experience</span> at:</h2>
 
         <div className="lg:flex">
           <div className="rounded-xl shadow-xl mx-8 mb-6 p-8 bg-white lg:w-150 dark:bg-stone-800 dark:border-1 dark:border-stone-700">
             <Image src={deloitte} width={150} height={150} className="bg-black px-4 py-3 rounded-lg mb-2" />
             <p className="py-3 font-semibold md:text-lg">Engineering Strategy & Architecture Advisory Analyst</p>
+            <p className="pb-3 md:text-lg">Deloitte, Brisbane</p>
             <p className="pb-3 md:text-lg">Cloud and Engineering Practice</p>
           </div>
           <div className="rounded-xl shadow-xl mx-8 mb-6 p-8 bg-white lg:w-150 dark:bg-stone-800 dark:border-1 dark:border-stone-700">
             <Image src={dltx} width={150} height={100} />
             <p className="py-3 font-semibold md:text-lg">Junior Business Analyst</p>
+            <p className="pb-3 md:text-lg">DLTx Labs</p>
             <p className="pb-3 md:text-lg">Blockchain and Fintech Industry</p>
           </div>
         </div>
